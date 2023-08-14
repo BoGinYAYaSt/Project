@@ -1,0 +1,288 @@
+{
+  "id": "cffb3176-7301-4792-ad6c-8427e4a3b8a8",
+  "version": "2.0",
+  "name": "side",
+  "url": "https://skillfactory.ru",
+  "tests": [{
+    "id": "92d8f5a6-2d19-4330-a565-f2de38149546",
+    "name": "sf1",
+    "commands": [{
+      "id": "86f65ab2-e41c-4bd7-8c47-7bc9f81580c4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50e58528-f110-4ca3-8584-516aefea59b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1695x1087",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7cfc3c3-e761-4e72-9b36-2f532cc75223",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Data Science",
+      "targets": [
+        ["linkText=Data Science", "linkText"],
+        ["css=li:nth-child(2) > .directions__list-link", "css:finder"],
+        ["xpath=//div[@id='rec623700412']/div/div/div/section/div/div/div[2]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/courses/data-science')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ae353ad-c25e-437c-81a4-911415f15dfe",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Data Science",
+      "targets": [
+        ["linkText=Data Science", "linkText"],
+        ["css=li:nth-child(2) > .directions__list-link", "css:finder"],
+        ["xpath=//div[@id='rec623700412']/div/div/div/section/div/div/div[2]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/courses/data-science')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b3b73b6-8dde-429c-99e8-0de725e22f20",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(1) > .directions__list-link > span",
+      "targets": [
+        ["css=li:nth-child(1) > .directions__list-link > span", "css:finder"],
+        ["xpath=//div[@id='rec623700412']/div/div/div/section/div/div/div[2]/div/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79bc0c53-3300-453e-8de0-0417b4537a38",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .directions__list-link > span",
+      "targets": [
+        ["css=li:nth-child(1) > .directions__list-link > span", "css:finder"],
+        ["xpath=//div[@id='rec623700412']/div/div/div/section/div/div/div[2]/div/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1526",
+      "windowTimeout": 2000
+    }, {
+      "id": "6b5ade2f-c34a-4c97-a8fc-cc7882e7c744",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(1) > .directions__list-link > span",
+      "targets": [
+        ["css=li:nth-child(1) > .directions__list-link > span", "css:finder"],
+        ["xpath=//div[@id='rec623700412']/div/div/div/section/div/div/div[2]/div/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "759c3387-dbb4-4bd4-9cf1-e1fec9a9a363",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75e17652-f225-4e28-a356-dde06b4e839e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1526}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a2368e8-928d-49bf-b5f5-ed7f005fac4b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5690865761679285183517 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5690865761679285183517 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Администрирование')]", "xpath:link"],
+        ["xpath=//div[@id='rec569086576']/div/div/div[21]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/courses/administrirovanie')]", "xpath:href"],
+        ["xpath=//div[21]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Администрирование')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f146be9-57db-491c-9717-0d484a994077",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-elem__5690865761679285183517 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5690865761679285183517 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Администрирование')]", "xpath:link"],
+        ["xpath=//div[@id='rec569086576']/div/div/div[21]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/courses/administrirovanie')]", "xpath:href"],
+        ["xpath=//div[21]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Администрирование')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3185f1de-5a16-4caf-84a4-30452077b71a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__5690865761679285183517 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5690865761679285183517 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Администрирование')]", "xpath:link"],
+        ["xpath=//div[@id='rec569086576']/div/div/div[21]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/courses/administrirovanie')]", "xpath:href"],
+        ["xpath=//div[21]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Администрирование')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b765307-2853-4730-8275-5c7134784d3a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-elem__5690865761679285183517 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5690865761679285183517 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Администрирование')]", "xpath:link"],
+        ["xpath=//div[@id='rec569086576']/div/div/div[21]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/courses/administrirovanie')]", "xpath:href"],
+        ["xpath=//div[21]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Администрирование')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b37b2d22-bcfd-487e-929d-edabd3bd1b5a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=1С",
+      "targets": [
+        ["linkText=1С", "linkText"],
+        ["css=.tn-elem__5690865761679285183514 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'1С')]", "xpath:link"],
+        ["xpath=//div[@id='rec569086576']/div/div/div[20]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/courses/1c')]", "xpath:href"],
+        ["xpath=//div[20]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1С')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a93671f8-3012-4d7e-81fc-77c5cc581e6a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=1С",
+      "targets": [
+        ["linkText=1С", "linkText"],
+        ["css=.tn-elem__5690865761679285183514 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'1С')]", "xpath:link"],
+        ["xpath=//div[@id='rec569086576']/div/div/div[20]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/courses/1c')]", "xpath:href"],
+        ["xpath=//div[20]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1С')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b127380-95a2-4e3d-8242-d8f22a991da2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Инфраструктура",
+      "targets": [
+        ["linkText=Инфраструктура", "linkText"],
+        ["css=.tn-elem__5690865761678946394183 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Инфраструктура')]", "xpath:link"],
+        ["xpath=//div[@id='rec569086576']/div/div/div[11]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/network-infrastructure')])[2]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "096e52e7-0e4f-41e7-a505-96f46baf810e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Инфраструктура",
+      "targets": [
+        ["linkText=Инфраструктура", "linkText"],
+        ["css=.tn-elem__5690865761678946394183 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Инфраструктура')]", "xpath:link"],
+        ["xpath=//div[@id='rec569086576']/div/div/div[11]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/network-infrastructure')])[2]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75caa3ee-5488-4e6c-8550-9f0902a77a5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Веб-разработка",
+      "targets": [
+        ["linkText=Веб-разработка", "linkText"],
+        ["css=.tn-elem__5690865761678946238913 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Веб-разработка')]", "xpath:link"],
+        ["xpath=//div[@id='rec569086576']/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/web-razrabotka')])[2]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2edaf496-c49a-4f66-a40a-4d151804da55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Веб-разработка",
+      "targets": [
+        ["linkText=Веб-разработка", "linkText"],
+        ["css=.tn-elem__5690865761678946238913 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Веб-разработка')]", "xpath:link"],
+        ["xpath=//div[@id='rec569086576']/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/web-razrabotka')])[2]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7d2d769-03b3-4917-9f21-03d28bfb4ef6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Веб-разработка",
+      "targets": [
+        ["linkText=Веб-разработка", "linkText"],
+        ["css=.tn-elem__5690865761678946238913 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Веб-разработка')]", "xpath:link"],
+        ["xpath=//div[@id='rec569086576']/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/web-razrabotka')])[2]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3904afd8-db65-49b0-b767-03480f0ea851",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "658a9e2d-7834-45ed-a663-4d1de9e5dcd6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "874c259b-7a6d-4aa8-8819-7f549a714df3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7e608c26-76af-434c-90f6-b41a9e367f46",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["92d8f5a6-2d19-4330-a565-f2de38149546"]
+  }],
+  "urls": ["https://skillfactory.ru/"],
+  "plugins": []
+}
